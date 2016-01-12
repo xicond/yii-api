@@ -1,2 +1,12 @@
 /cache/
 /config/development/
+
+/vendor/
+
+/.idea
+
+/runtime/*
+
+/composer.lock
+
+/.DS_Store
