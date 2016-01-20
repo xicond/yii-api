@@ -10,3 +10,7 @@
 /composer.lock
 
 /.DS_Store
+
+runtime/debug
+
+runtime/cache
