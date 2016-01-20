@@ -40,12 +40,12 @@ return [
             'errorAction' => 'site/error',
         ],
         'urlManager' => [
-//            'enablePrettyUrl' => true,
+            'enablePrettyUrl' => true,
 //                'enableStrictParsing' => true,
-//                'showScriptName' => false,
+            'showScriptName' => false,
             'rules' => [
-                ['class' => 'yii\rest\UrlRule', 'controller' => ['user', 'post']],
-//                ['class' => 'app\components\RestUrlRule', 'controller' => ['v2/user', 'v2/post']],
+                ['class' => 'app\components\RestUrlRule', 'controller' => ['<controller>'=>'v1/<controller>']],
+//                ['class' => 'yii\rest\UrlRule', 'controller' => ['user', 'post']],
             ],
         ],
         'request' => [
