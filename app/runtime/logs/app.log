@@ -1,0 +1,1576 @@
+2016-01-12 04:15:24 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 04:15:24 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '56179',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452572124.5760059,
+  'REQUEST_TIME' => 1452572124,
+)
+2016-01-12 06:33:21 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 06:33:21 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57416',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452580401.2167289,
+  'REQUEST_TIME' => 1452580401,
+)
+2016-01-12 06:33:45 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 06:33:45 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57416',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452580424.981349,
+  'REQUEST_TIME' => 1452580424,
+)
+2016-01-12 06:34:17 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 06:34:17 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57416',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452580457.8720651,
+  'REQUEST_TIME' => 1452580457,
+)
+2016-01-12 06:34:54 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 06:34:54 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57416',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452580494.77929,
+  'REQUEST_TIME' => 1452580494,
+)
+2016-01-12 07:02:32 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:02:32 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57675',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452582152.273828,
+  'REQUEST_TIME' => 1452582152,
+)
+2016-01-12 07:03:28 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:03:28 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57675',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452582208.3129051,
+  'REQUEST_TIME' => 1452582208,
+)
+2016-01-12 07:09:00 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:09:00 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57762',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452582540.5303099,
+  'REQUEST_TIME' => 1452582540,
+)
+2016-01-12 07:18:30 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:18:30 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57845',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452583110.242924,
+  'REQUEST_TIME' => 1452583110,
+)
+2016-01-12 07:18:32 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:18:32 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57845',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452583112.7592731,
+  'REQUEST_TIME' => 1452583112,
+)
+2016-01-12 07:33:34 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:33:34 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57971',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452584014.3442531,
+  'REQUEST_TIME' => 1452584014,
+)
+2016-01-12 07:33:40 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:33:40 [192.168.33.1][-][-][info][application] $_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => '',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57971',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452584020.5987461,
+  'REQUEST_TIME' => 1452584020,
+)
+2016-01-12 07:34:43 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:34:43 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '57971',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452584083.813719,
+  'REQUEST_TIME' => 1452584083,
+)
+2016-01-12 07:41:28 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:41:28 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '58035',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452584488.3374219,
+  'REQUEST_TIME' => 1452584488,
+)
+2016-01-12 07:46:13 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 07:46:13 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '58064',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452584773.444427,
+  'REQUEST_TIME' => 1452584773,
+)
+2016-01-12 08:09:15 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 08:09:15 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '58180',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452586155.5441599,
+  'REQUEST_TIME' => 1452586155,
+)
+2016-01-12 08:18:38 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 08:18:38 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '58269',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452586718.700633,
+  'REQUEST_TIME' => 1452586718,
+)
+2016-01-12 08:21:46 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 08:21:45 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '58313',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452586905.9453411,
+  'REQUEST_TIME' => 1452586905,
+)
+2016-01-12 08:26:15 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 08:26:15 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '58413',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452587175.1769619,
+  'REQUEST_TIME' => 1452587175,
+)
+2016-01-12 14:26:25 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 14:26:25 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '63391',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452608785.2833741,
+  'REQUEST_TIME' => 1452608785,
+)
+2016-01-12 14:45:38 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 14:45:38 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '64542',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452609938.006556,
+  'REQUEST_TIME' => 1452609938,
+)
+2016-01-12 17:24:05 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 17:24:05 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '56747',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452619445.3041301,
+  'REQUEST_TIME' => 1452619445,
+)
+2016-01-12 17:24:55 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 17:24:55 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '56747',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452619495.5468791,
+  'REQUEST_TIME' => 1452619495,
+)
+2016-01-12 17:25:38 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 17:25:38 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '56747',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452619538.034869,
+  'REQUEST_TIME' => 1452619538,
+)
+2016-01-12 17:27:35 [192.168.33.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\UrlManager::addRules()' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\base\Component->__call('addRules', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2-debug/Module.php(128): yii\web\UrlManager->addRules(Array, false)
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(294): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(62): yii\base\Application->bootstrap()
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(251): yii\web\Application->bootstrap()
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(106): yii\base\Application->init()
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(190): yii\base\Object->__construct(Array)
+#7 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#8 {main}
+2016-01-12 17:27:35 [192.168.33.1][-][-][info][application] $_GET = array (
+  'r' => 'site/index',
+)
+
+$_COOKIE = array (
+  'has_js' => '1',
+  '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd";',
+)
+
+$_SERVER = array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PATH_INFO' => '',
+  'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php',
+  'QUERY_STRING' => 'r=site/index',
+  'REQUEST_METHOD' => 'GET',
+  'CONTENT_TYPE' => '',
+  'CONTENT_LENGTH' => '',
+  'SCRIPT_NAME' => '/yii-api/public/index.php',
+  'REQUEST_URI' => '/yii-api/public/index.php?r=site/index',
+  'DOCUMENT_URI' => '/yii-api/public/index.php',
+  'DOCUMENT_ROOT' => '/var/www/html',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.6.2',
+  'REMOTE_ADDR' => '192.168.33.1',
+  'REMOTE_PORT' => '56965',
+  'SERVER_ADDR' => '192.168.33.10',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => '_',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => '192.168.33.10',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+  'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B',
+  'PHP_SELF' => '',
+  'REQUEST_TIME_FLOAT' => 1452619655.5105391,
+  'REQUEST_TIME' => 1452619655,
+)
+2016-01-12 18:58:10 [192.168.33.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\gii\Module does not exist' in /var/www/html/yii-api/vendor/yiisoft/yii2/di/Container.php:415
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2/di/Container.php(415): ReflectionClass->__construct('yii\\gii\\Module')
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2/di/Container.php(358): yii\di\Container->getDependencies('yii\\gii\\Module')
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('yii\\gii\\Module', Array, Array)
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\gii\\Module', Array, Array)
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(304): yii\base\Module->getModule('gii')
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#7 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#8 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#9 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#10 /var/www/html/yii-api/public/index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2016-01-12 18:58:10 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'has_js' => '1'
+    '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:\"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd\";'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/yii-api/public/index.php'
+    'REQUEST_URI' => '/yii-api/public/index.php?r=site/index'
+    'DOCUMENT_URI' => '/yii-api/public/index.php'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'REMOTE_PORT' => '62296'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => '_'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.33.10'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1452625090.2307
+    'REQUEST_TIME' => 1452625090
+]
+2016-01-12 19:01:04 [192.168.33.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\assets\AppAsset' not found' in /var/www/html/yii-api/views/layouts/main.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-01-12 19:01:04 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'has_js' => '1'
+    '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:\"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd\";'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/yii-api/public/index.php'
+    'REQUEST_URI' => '/yii-api/public/index.php?r=site/index'
+    'DOCUMENT_URI' => '/yii-api/public/index.php'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'REMOTE_PORT' => '62492'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => '_'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.33.10'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1452625264.6897
+    'REQUEST_TIME' => 1452625264
+]
+2016-01-12 19:02:57 [192.168.33.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: /var/www/html/yii-api/vendor/bower/jquery/dist' in /var/www/html/yii-api/vendor/yiisoft/yii2/web/AssetManager.php:452
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2/web/AssetBundle.php(163): yii\web\AssetManager->publish('/var/www/html/y...', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2/web/AssetManager.php(266): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /var/www/html/yii-api/vendor/yiisoft/yii2/web/AssetManager.php(237): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /var/www/html/yii-api/vendor/yiisoft/yii2/web/View.php(284): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /var/www/html/yii-api/vendor/yiisoft/yii2/web/View.php(289): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /var/www/html/yii-api/vendor/yiisoft/yii2/web/View.php(289): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /var/www/html/yii-api/vendor/yiisoft/yii2/web/AssetBundle.php(119): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /var/www/html/yii-api/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /var/www/html/yii-api/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/y...')
+#9 /var/www/html/yii-api/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/y...', Array)
+#10 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/var/www/html/y...', Array, Object(app\controllers\SiteController))
+#11 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#12 /var/www/html/yii-api/controllers/SiteController.php(75): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /var/www/html/yii-api/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#17 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#18 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /var/www/html/yii-api/public/index.php(18): yii\base\Application->run()
+#20 {main}
+2016-01-12 19:02:57 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'has_js' => '1'
+    '_csrf' => '8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs:32:\"OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd\";'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/yii-api/public/index.php'
+    'REQUEST_URI' => '/yii-api/public/index.php?r=site/index'
+    'DOCUMENT_URI' => '/yii-api/public/index.php'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'REMOTE_PORT' => '62635'
+    'SERVER_ADDR' => '192.168.33.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => '_'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.33.10'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'has_js=1; _csrf=8e36ab36eaa105ea6de69c8ea7bb873b37d73a2686eb2253d3292a9b5e7737bcs%3A32%3A%22OgZ1tsnVgPIbgqAiNALZnm6vWerFrKMd%22%3B'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1452625377.1438
+    'REQUEST_TIME' => 1452625377
+]
+2016-01-20 07:48:24 [::1][-][jbd0h6qaeig44063b60tj0p4g6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/index".' in /var/www/html/yii-api/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#1 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii-api/public/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/yii-api/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/yii-api/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii-api/public/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-01-20 07:48:24 [::1][-][jbd0h6qaeig44063b60tj0p4g6][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii-api/public/index.php'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/yii-api/public/index.php'
+    'REQUEST_URI' => '/yii-api/public/index.php?r=user/index'
+    'DOCUMENT_URI' => '/yii-api/public/index.php'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '34169'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => '_'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'curl/7.38.0'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT' => 'application/json'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1453276104.3086
+    'REQUEST_TIME' => 1453276104
+]
