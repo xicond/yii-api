@@ -44,7 +44,7 @@ return [
 //                'enableStrictParsing' => true,
             'showScriptName' => false,
             'rules' => [
-                ['class' => 'app\components\RestUrlRule', 'controller' => ['<controller>'=>'v1/<controller>']],
+                ['class' => 'app\components\RestUrlRule', 'accepts' => 'application/json', 'controller' => ['<controller>'=>'v1/<controller>']],
 //                ['class' => 'yii\rest\UrlRule', 'controller' => ['user', 'post']],
             ],
         ],

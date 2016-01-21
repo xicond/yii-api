@@ -63,6 +63,9 @@ class RestUrlRule extends UrlRule
      * @var string the suffix that will be assigned to [[\yii\web\UrlRule::suffix]] for every generated rule.
      */
     public $suffix = '.json';
+
+    public $accepts = 'application/json';
+
     /**
      * @var string|array the controller ID (e.g. `user`, `post-comment`) that the rules in this composite rule
      * are dealing with. It should be prefixed with the module ID if the controller is within a module (e.g. `admin/user`).
@@ -158,7 +161,8 @@ class RestUrlRule extends UrlRule
      */
     public function parseRequest($manager, $request)
     {
-        if(Yii::$app->request->getHeaders()->get('accept')===null) return false;
+        if(($accepts = Yii::$app->request->getHeaders()->get('accept'))===null) return false;
+        if(!count(array_intersect(explode(',',preg_replace('(,[ ]+)',',',$accepts)),explode(',',preg_replace('(,[ ]+)',',',$this->accepts)))))return false;
         //suffix should set
         if(empty($this->suffix)) return false;
 //        $pathInfo = $request->getPathInfo();
@@ -181,7 +185,8 @@ class RestUrlRule extends UrlRule
      */
     public function createUrl($manager, $route, $params)
     {
-        if(Yii::$app->request->getHeaders()->get('accept')===null) return false;
+        if(($accepts = Yii::$app->request->getHeaders()->get('accept'))===null) return false;
+        if(!count(array_intersect(explode(',',preg_replace('(,[ ]+)',',',$accepts)),explode(',',preg_replace('(,[ ]+)',',',$this->accepts)))))return false;
         foreach ($this->controller as $urlName => $controller) {
 //            if (strpos($route, $controller) !== false) {
                 foreach ($this->rules[$urlName] as $rule) {
