@@ -11,6 +11,6 @@
 
 /.DS_Store
 
-runtime/debug
+runtime/debug/*
 
-runtime/cache
+runtime/cache/*
