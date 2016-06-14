@@ -1,2 +1,2 @@
 # yii-api
-trial yii2 restful
+yii2 restful, using basic standard json, xml
